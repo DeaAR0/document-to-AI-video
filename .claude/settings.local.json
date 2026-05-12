@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \"const o = require\\('officeparser'\\); console.log\\(Object.keys\\(o\\)\\)\")",
+      "Bash(node -e \"const o = require\\('officeparser'\\); console.log\\(typeof o.parseOffice, o.parseOffice.toString\\(\\).slice\\(0,200\\)\\)\")",
+      "Bash(node -e ' *)"
+    ]
+  }
+}
