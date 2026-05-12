@@ -19,7 +19,7 @@ import { formatDuration } from "@/lib/utils";
 import type { DocumentSection } from "@/lib/types";
 import VideoCanvas from "@/components/VideoCanvas";
 import HistorySidebar from "@/components/HistorySidebar";
-import type { Citation } from "@/lib/claude";
+import type { Citation } from "@/lib/gemini";
 
 interface ChatMessage {
   role: "user" | "assistant";

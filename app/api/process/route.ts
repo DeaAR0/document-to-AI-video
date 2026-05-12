@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { v4 as uuidv4 } from "uuid";
 import { parseDocx, parsePdf, parsePptx, parsePlainText } from "@/lib/document-parser";
-import { generateScripts } from "@/lib/claude";
+import { generateScripts } from "@/lib/gemini";
 import type { ProcessedDocument } from "@/lib/types";
 
 export const runtime = "nodejs";

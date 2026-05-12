@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { answerQuestion } from "@/lib/claude";
+import { answerQuestion } from "@/lib/gemini";
 
 export const runtime = "nodejs";
 export const maxDuration = 30;
